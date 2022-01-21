@@ -1,0 +1,39 @@
+print("enter your score")
+score = int(input())
+if score >= 9000:
+    print("you are amazing")
+elif score <= 100:
+    print("get gud")
+else:
+    print("keep praticing")
+
+for i in range(10,101,5):
+    print(i)
+c = 0
+while(c!=12):
+    print("cheese")
+    c+=1
+
+
+
+class cheese:
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+    def melt(self):
+        if self.x == 1:
+            print("cheese has melted")
+    def info(self):
+        print("i am at x ", self.x)
+        print("i am at y ", self.y)
+        print("am cheese")
+
+
+c1 = cheese(1,2)
+c1.info()
+c1.melt()
+c2 = cheese(5,6)
+c2.info()
+c2.melt()
+
+
